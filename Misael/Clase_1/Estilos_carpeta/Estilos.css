@@ -1,0 +1,227 @@
+:root {
+  --border: #111;
+  --bg: #fff;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--border);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ---- NAV SUPERIOR FIJO ---- */
+header.navbar {
+  position: fixed;
+  top: env(safe-area-inset-top, 0px);
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: var(--bg);
+  border-bottom: 3px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 100;
+}
+.nav-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+.nav-circle-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+  background: var(--bg);
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-avatar-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: var(--border);
+}
+
+/* ---- LAYOUT PRINCIPAL ---- */
+main {
+  padding-top: 90px; /* deja espacio bajo el nav fijo */
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  min-height: calc(100% - 70px - 60px);
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* Contenedor 1: barra lateral izquierda */
+.container-side {
+  width: 200px;
+  flex-shrink: 0;
+  border: 3px solid var(--border);
+  min-height: 480px;
+}
+
+/* Gestion global: lista de filas a la derecha */
+.container-main {
+  flex: 1;
+  border: 3px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+.row-item {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+.row-item:not(:last-child) {
+  border-bottom: 3px solid var(--border);
+}
+
+/* Gestion fila superiror: encabezados de la tabla */
+/* Contenedor 2: tabla de clientes */
+.container-main {
+  flex: 1;
+  border: 3px solid var(--border);
+  overflow-x: auto;
+}
+.data-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.data-table th,
+.data-table td {
+  border: 3px solid var(--border);
+  padding: 16px;
+  text-align: left;
+  vertical-align: middle;
+}
+.data-table thead th {
+  font-weight: 700;
+}
+.btn-detalles{
+  width: 100%;
+  height: 100%;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  background: #808080;
+}
+.btn-eliminar {
+  width: 100%;
+  height: 100%;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  background: #e02020;
+}
+
+/* ---- FOOTER ---- */
+footer.site-footer {
+  border-top: 3px solid var(--border);
+  padding: 18px 24px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  .container-side {
+    width: 100%;
+    min-height: 100px;
+  }
+}
+
+/* ---- PAGINA DE INICIO DE SESION ---- */
+.login-main {
+  padding-top: 90px;
+  padding-bottom: 24px;
+  min-height: calc(100% - 70px - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-card {
+  width: 100%;
+  max-width: 360px;
+  border: 3px solid var(--border);
+  padding: 32px 28px;
+  margin: 0 24px;
+}
+.login-title {
+  margin: 0 0 24px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.login-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+.login-field label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.login-field input {
+  border: 3px solid var(--border);
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+.login-field input:focus-visible {
+  outline: 3px solid #4a90e2;
+  outline-offset: 2px;
+}
+.login-submit {
+  width: 100%;
+  background: var(--border);
+  color: var(--bg);
+  border: 3px solid var(--border);
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.login-submit:hover {
+  background: #333;
+}
+.login-back {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 0.9rem;
+  color: var(--border);
+}
+/* Añade esto al final de tu Estilos.css */
+.container-main {
+  max-height: 70vh; /* Altura máxima para que no crezca infinito */
+  overflow-y: auto; /* Scroll vertical */
+}
+
+/* Estilo para los botones de la tabla */
+.btn-detalles { background: #4a90e2; color: white; border: 2px solid #111; }
+.btn-eliminar { background: #e02020; color: white; border: 2px solid #111; }

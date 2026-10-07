@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gestionar Clientes</title>
+
+<!-- Cargar estilos --->
+<link rel="stylesheet" href="../Estilos_carpeta/Estilos.css">
+
+<!-- Carga de datos -->
+<script src="../Base_Datos/Clientes.js"></script>
+<script src="../Backend/Carga_base_datos.js"></script>
+
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-brand">Gestion XD</div>
+    <a class="nav-circle-btn" href="Inicio_sesion.html" aria-label="Ir a inicio de sesión">
+      <svg class="nav-avatar-icon" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <circle cx="50" cy="34" r="19"/>
+        <ellipse cx="50" cy="100" rx="40" ry="38"/>
+      </svg>
+    </a>
+  </header>
+
+  <main>
+    <!-- Barra lateral y opciones-->
+    <div class="container-side" aria-label="Barra lateral">
+        <p style="padding: 10px; font-weight: bold;">Menú</p>
+    </div>
+    <!-- Contenido principal -->
+    <div class="container-main" aria-label="Contenido principal">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Número Cliente</th>
+            <th>RUT</th>
+            <th>Celular</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-clientes"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    © 2026 Mi Sitio. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>

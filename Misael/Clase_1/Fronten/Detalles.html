@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Detalles del Cliente</title>
+
+<link rel="stylesheet" href="../Estilos_carpeta/Estilos.css">
+
+<!-- Carga de datos -->
+<script src="../Base_Datos/Clientes.js"></script>
+<script src="../Base_Datos/Ventas.js"></script>
+<script src="../Backend/Detalles.js"></script>
+
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-brand">Gestion XD</div>
+    <a class="nav-circle-btn" href="Gestionar.html" aria-label="Volver a Gestionar">
+      <svg class="nav-avatar-icon" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <circle cx="50" cy="34" r="19"/>
+        <ellipse cx="50" cy="100" rx="40" ry="38"/>
+      </svg>
+    </a>
+  </header>
+
+  <main>
+    <div class="container-side" aria-label="Barra lateral">
+        <p style="padding: 10px; font-weight: bold;">Menú</p>
+        <a href="Gestionar.html" style="display:block; padding: 10px; color: black; text-decoration: none; font-weight: bold;">← Volver a Gestionar</a>
+    </div>
+    <div class="container-main" aria-label="Contenido principal">
+      
+      <!-- Título dinámico con los datos del cliente -->
+      <h2 id="titulo-cliente" style="text-align: center; margin-top: 0;">Cargando datos...</h2>
+      
+      <div class="table-container">
+        <table class="data-table details-table">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>N° Factura</th>
+              <th>Valor Venta</th>
+              <th>Pago Efectivo</th>
+              <th>Pago Cheque</th>
+              <th>Pago Transferencia</th>
+              <th>Crédito</th>
+              <th>Crédito Acumulada</th>
+              <th>Eliminar</th>
+            </tr>
+          </thead>
+          <tbody id="tabla-detalles-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    © 2026 Mi Sitio. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
