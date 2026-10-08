@@ -1,32 +1,47 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Página-1" id="dylddN2JeRtE7Cx1H_mv">
-    <mxGraphModel dx="542" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AloCiSCtLMqlhR9Urf9--1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;" value="" vertex="1">
-          <mxGeometry height="470" width="470" x="140" y="60" as="geometry" />
+        <mxCell id="AloCiSCtLMqlhR9Urf9--1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#6600CC;" value="" vertex="1">
+          <mxGeometry height="580" width="580" x="123" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="AloCiSCtLMqlhR9Urf9--3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;" value="" vertex="1">
-          <mxGeometry height="310" width="310" x="220" y="140" as="geometry" />
+        <mxCell id="AloCiSCtLMqlhR9Urf9--3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#0066CC;" value="" vertex="1">
+          <mxGeometry height="396.25" width="396.25" x="214.88" y="131.88" as="geometry" />
         </mxCell>
-        <mxCell id="AloCiSCtLMqlhR9Urf9--5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;" value="" vertex="1">
-          <mxGeometry height="150" width="150" x="300" y="220" as="geometry" />
+        <mxCell id="AloCiSCtLMqlhR9Urf9--5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#000000;fillColor=#CC6600;" value="" vertex="1">
+          <mxGeometry height="202.5" width="202.5" x="311.75" y="228.76" as="geometry" />
         </mxCell>
-        <mxCell id="AloCiSCtLMqlhR9Urf9--7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;J&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="260" y="210" as="geometry" />
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="MJ" vertex="1">
+          <mxGeometry height="60" width="30" x="520" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="AloCiSCtLMqlhR9Urf9--10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Verdana;strokeColor=#000000;" value="MJ" vertex="1">
-          <mxGeometry height="60" width="30" x="470" y="220" as="geometry" />
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="J" vertex="1">
+          <mxGeometry height="60" width="30" x="280" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="AloCiSCtLMqlhR9Urf9--11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;NJ&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="180" y="310" as="geometry" />
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="Comunidad" vertex="1">
+          <mxGeometry height="60" width="30" x="360" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="AloCiSCtLMqlhR9Urf9--12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Comunidad&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="360" y="250" as="geometry" />
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="Desarrollador" vertex="1">
+          <mxGeometry height="60" width="30" x="440" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="AloCiSCtLMqlhR9Urf9--13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;MJ= Maestro de juego de rol&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;J = Jugador de juego de rol&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;NJ = No jugador de juego de rol&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="180" x="580" y="60" as="geometry" />
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="Clubes y tiendas" vertex="1">
+          <mxGeometry height="60" width="30" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="NJ" vertex="1">
+          <mxGeometry height="60" width="30" x="600" y="431.26" as="geometry" />
+        </mxCell>
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="CC" vertex="1">
+          <mxGeometry height="60" width="30" x="399" y="431.26" as="geometry" />
+        </mxCell>
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="Redes sociales" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="Wikis" vertex="1">
+          <mxGeometry height="60" width="30" x="630" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Loi64HDf8JNyFdwuZTGY-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" value="GIt" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
