@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="ZyOaRBYLg8-E3LZHSq7f">
+    <mxGraphModel dx="786" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-3" parent="1" style="ellipse;html=1;shape=startState;fillColor=#FF8000;strokeColor=#FF8000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-4" edge="1" parent="1" source="A6x2krVcFDpnWqqYNhHm-3" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Solicitad Registro&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="125" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-9" edge="1" parent="1" source="A6x2krVcFDpnWqqYNhHm-8" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="A6x2krVcFDpnWqqYNhHm-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="300" />
+              <mxPoint x="185" y="300" />
+            </Array>
+            <mxPoint x="185" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Rellenar Campo Solicitado&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="125" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-13" edge="1" parent="1" source="A6x2krVcFDpnWqqYNhHm-12" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Enivar Registro&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="340" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-22" edge="1" parent="1" source="A6x2krVcFDpnWqqYNhHm-21" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="no">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-23" edge="1" parent="1" source="A6x2krVcFDpnWqqYNhHm-21" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="Si">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Mensaje de Registro enviado&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-28" edge="1" parent="1" source="A6x2krVcFDpnWqqYNhHm-27" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="A6x2krVcFDpnWqqYNhHm-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Cerrar registro&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-30" edge="1" parent="1" source="A6x2krVcFDpnWqqYNhHm-29" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="A6x2krVcFDpnWqqYNhHm-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-31" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="690" y="325" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
