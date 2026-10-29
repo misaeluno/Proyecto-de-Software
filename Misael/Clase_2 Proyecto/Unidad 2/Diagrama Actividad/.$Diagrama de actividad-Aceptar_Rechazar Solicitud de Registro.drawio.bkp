@@ -61,7 +61,7 @@
             <mxPoint x="580" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A6x2krVcFDpnWqqYNhHm-31" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+        <mxCell id="A6x2krVcFDpnWqqYNhHm-31" parent="1" style="ellipse;html=1;shape=endState;fillColor=#FF8000;strokeColor=#CC0000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="730" y="100" as="geometry" />
         </mxCell>
         <mxCell id="A6x2krVcFDpnWqqYNhHm-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Enviar mensaje de Rechazo al solicitante&lt;/font&gt;" vertex="1">
